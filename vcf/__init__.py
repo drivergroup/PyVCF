@@ -7,9 +7,10 @@ Online version of PyVCF documentation is available at http://pyvcf.rtfd.org/
 
 
 from vcf.parser import Reader, Writer
+from vcf.model import _Record as Record
 from vcf.parser import VCFReader, VCFWriter
 from vcf.filters import Base as Filter
 from vcf.parser import RESERVED_INFO, RESERVED_FORMAT
 from vcf.sample_filter import SampleFilter
 
-VERSION = '0.6.8'
+VERSION = '0.6.9'
